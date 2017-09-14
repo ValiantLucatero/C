@@ -11,7 +11,7 @@ int main()
 		printf("No hay logaritmo de cero");
 	else
 		if(num<0)
-			printf("No hat logaritmo de numeros negativos");
+			printf("No hay logaritmo de numeros negativos");
 		else
 		{
 			printf("Selecciona una opcion:\na)Logaritmo base 10\nb)Logaritmo Natural\n");
