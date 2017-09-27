@@ -15,7 +15,7 @@ main()
 		resp[i]=resi;
 		i++;
 	}
-	printf("%d en binario es: ",x);
+	printf("%d en octal es: ",x);
 	for(j=i-1;j>=0;j--)
 	{
 		printf("%d",resp[j]);

@@ -4,9 +4,9 @@
 main()
 {
 	int x,div,i,j;
-	char resi[100];
+	char resi;
 	i=0;
-	int resp;
+	int resp[100];
 	printf("Ingresa un numero: ");
 	scanf("%d",&x);
 	div=x;
@@ -18,33 +18,33 @@ main()
 		{
 			resi=65;
 		}
-		if (resi=="11")
+		if (resi==11)
 		{
-			resi="B";
+			resi=66;
 		}
-		if (resi=="12")
+		if (resi==12)
 		{
-			resi="C";
+			resi=67;
 		}
-		if (resi=="13")
+		if (resi==13)
 		{
-			resi="D";
+			resi=68;
 		}
-		if (resi=="14")
+		if (resi==14)
 		{
-			resi="E";
+			resi=69;
 		}
-		if (resi=="15")
+		if (resi==15)
 		{
-			resi="F";
+			resi=70;
 		}
 		resp[i]=resi;
 		i++;
 	}
-	printf("%d en binario es: ",x);
+	printf("%d en hexadecimal es: ",x);
 	for(j=i-1;j>=0;j--)
 	{
-		printf("%d",resp[j]);
+		printf("%c",resp[j]);
 	}
 	printf("\n");
 }
