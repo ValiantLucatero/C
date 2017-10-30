@@ -4,12 +4,12 @@
 int main()
 {
 	char cad[30];
-	int b=0;
+	int b=0,i;
 	do
 	{
 		fflush(stdin);
 		gets(cad);
-		for(int i=0;i<strlen(cad);i++)
+		for(i=0;i<strlen(cad);i++)
 		if(cad[i]=='@')
 		b=1;
 		else
